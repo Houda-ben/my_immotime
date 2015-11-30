@@ -1,0 +1,98 @@
+h1
+{
+	margin-left: 48px;
+	font-size: 52px;
+	font-family: fantasy;
+	color: white;
+	font-style: italic;
+
+}
+
+.texte
+{
+	font-family: calibri;
+	color: white;
+	border: 2px solid white;
+	border-radius: 3px;
+	width: 400px;
+	padding: 15px;
+}
+
+header #my_header
+{
+	background-color: #545454;
+	height: 50px;
+	border-radius: 7px;
+	padding: 7px;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+}
+
+.box
+{
+	position: absolute;
+	left: 83%;
+	font-size: 0.4em;
+	top: 16px;
+	border-radius: 7px;
+	background-color: white;
+	text-align: center;
+	width: 150px;
+	height: 35px;
+	padding-top: 9px;
+	size: 30%;
+}
+
+.box:hover
+{
+	background-color: #788088;
+}
+
+div p
+{
+	font-family: bradley hand;
+	font-size: 34px;
+	color: pink;
+	width: auto;
+}
+
+body
+{
+	background-image: url(http://www.franceinfo.fr/sites/default/files/2013/12/09/1242987/images/ressource/Fotolia_54953340_Subscription_XL.jpg);
+	background-size: cover;
+}
+
+.col
+{
+	float: left;
+	width: 35%;
+	height: 290px;
+	display: block;
+	padding: 2% 7% 2% 7%;
+	box-sizing: border-box;
+	border: 0.5px solid black;
+	border-radius: 9px;
+	padding: 15px 35px 35px 15px;
+	margin: 20px 15px 20px 155px;
+	position: static;
+	box-shadow: 5px 9px 18px black;
+	background-color: rgba(120, 128, 136, 0.4);
+	text-shadow: 5px 5px 4px grey;
+}
+
+.col img
+{
+	width: 20%;
+	float: right;
+	opacity: 0.6;
+	bottom: 20px;
+}
+
+.col img:hover
+{
+	width: 38%;
+	opacity: 1;
+}
+
+

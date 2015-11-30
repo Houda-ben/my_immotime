@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyImmoTime</title>
+	<meta charse="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../acc.css">
+	<script type="text/javascript" src="../js/header.js"></script>
+</head>
+<body>
+<header>
+	<div id="my_header"> MyImmoTime
+		<form name ="Choix">
+			<select name="liste" onChange="lien()" class="box">
+			<option value=""> <?php echo $_SESSION['prenom']."  ".$_SESSION['nom']; ?> </option>
+			<option value="../index.php"> Deconnexion </option>
+			</select>
+		</form>
+	</div>
+</header>
+<h1>Bienvenue !</h1>
+<p class="texte">MyImmotime vous permet d'&ecirc;tre tenu au courant en temps r&eacute;els des informations utiles dans l'immobilier</p>
+<div class="po">
+	<div class="col">
+		<p>Localisez les maisons &agrave; vendre autour de vous!</p>
+		<a href="../carte/geoloo.html"><img src="../img/proximity-150698_640.png"></a>
+	</div>
+</div>
+<div class="po">
+	<div class="col">
+		<p>Recherchez les maisons &agrave; vendre dans les villes de votre choix</p>
+		<a href="tchat.html"><img src="../img/rech.png.jpg"></a>
+	</div>
+</div>
+<div class="po">
+	<div class="col">
+		<p>D&eacute;posez une annonce</p>
+		<a href="ajout.html"><img src="../img/a-vendre.png.jpg"></a>
+	</div>
+</div>
+<div class="po">
+	<div class="col">
+		<p>Devenez agent immobilier</p>
+		<a href="tchat.html"><img src="../img/exp.png"></a>
+	</div>
+</div>
+</body>
+</html>

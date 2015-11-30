@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>formulaire</title>
+	<meta charset= "UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<form id= "inscription" method="post" action ="inscription.php">
+  <fieldset>
+    <legend>Votre identité</legend>
+    <br/>
+    <ol>
+      <li>
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" type="text" placeholder="Nom" required autofocus>
+      </li>
+      <li>
+      	<label for="prenom">Prenom</label>
+        <input id="prenom" name="prenom" type="text" placeholder="Prenom" required>
+      </li>
+      <li>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="exemple@domaine.com" required>
+      </li>
+      <li>
+        <label for="telephone">Téléphone</label>
+        <input id="telephone" name="telephone" type="tel" placeholder="Ex&nbsp;: +3375500000000" required>
+      </li>
+      <li>
+        <label for="codepostal">Code postal</label>
+  		<input id="codepostal" name="codepostal" pattern="[0-9]{5}" placeholder="Ex : 75000"type=text required>
+        </li>
+     <li>
+        <label for="ville">Ville</label>
+        <input id="ville" name="ville" type="text" required>
+     </li>
+     <li>
+        <label>Mot de passe :</label>
+        <input name="mdp" type="password" required>
+    </li>
+    <li>
+        <label>Confirmation du Mot de passe :</label>
+        <input name="mdp2" type="password" required>
+    </li>
+    </ol>
+  </fieldset>
+
+  <fieldset>
+    <legend>Informations personelles </legend>
+    <br/>
+      <ol>
+        <li>
+        <label for="sit_fam"> Situation : </label>
+        	<SELECT id ="sit_fam" name="sit_fam">
+				<option>Célibataire </option>
+				<option>Marié(e) </option>
+			</SELECT>
+        </li>
+        <li>
+          <label for="child_nbr">Nombre d'enfants </label>
+          <input id="child_nbr" name="child_nbr" type="text" required>
+        </li>
+         <li>
+        <label for="statut"> Statut : </label>
+        	<SELECT id ="statut" name="statut">
+				<option> Etudiant(e)</option>
+				<option>Salarié(e) </option>
+				<option>Sans emploi</option>
+				<option>Retraité(e)</option>
+			</SELECT>
+        </li>
+      </ol>
+    </fieldset>
+
+  <fieldset>
+    <button type="submit" name="OK">Je m'inscris !</button>
+  </fieldset>
+</form>
+</body>
+</html>

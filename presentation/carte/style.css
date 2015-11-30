@@ -1,0 +1,57 @@
+#geolocate.ui-button {
+  background:#3887BE;
+  color:#FFF;
+  display:block;
+  position:absolute;
+  top:50%;left:50%;
+  width:160px;
+  margin:-20px 0 0 -80px;
+  z-index:100;
+  text-align:center;
+  padding:10px;
+  border:1px solid rgba(0,0,0,0.4);
+  border-radius:3px;
+  }
+#geolocate.ui-button:hover {
+   background:#3074a4;
+   color:#fff;
+	}
+    body { margin:0; padding:0; background-image: url(http://www.franceinfo.fr/sites/default/files/2013/12/09/1242987/images/ressource/Fotolia_54953340_Subscription_XL.jpg); }
+  #map { position:absolute; top:150px; left:10px; width:50%; height:50%; border-radius: 50px; border: 10px solid pink; z-index: 0;}
+  div#search {
+  background-color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+div#search input {
+  width: 200px;
+}
+div#results {
+  font-style: sans-serif;
+  color: black;
+  font-size: 75%;
+}
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position:absolute;
+    top: 10px;
+    left: 10%;
+    color: #1e1e1e;
+    font-family: 'Gabriela', serif;
+    font-size: 50px;
+    letter-spacing: .1em;
+    text-shadow: 10px 5px 5px #767676;
+}
+#frame{
+	position: absolute;
+	right: 10px;
+	height:100%;
+	width: 30%;
+}
